@@ -1,8 +1,12 @@
 #testing input, max and print format
 
-firstNumber = int(input("First number: "))
-secondNumber = int(input("Second number: "))
+class MaxNumber():
 
-maxNumber = max(firstNumber, secondNumber)
+    def def_max_number(first_number, second_number):
+        first_number = int(input("First number: "))
+        second_number = int(input("Second number: "))
 
-print("Max number: {} ".format(maxNumber))
+        return max(first_number, second_number)
+
+        #maxNumber = max(firstNumber, secondNumber)
+        #print("Max number: {} ".format(maxNumber))
