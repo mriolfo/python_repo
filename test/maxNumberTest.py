@@ -1,5 +1,5 @@
 import unittest
-from code.maxNumber import MaxNumber
+from main.maxNumber import MaxNumber
 
 
 class MaxNumberTest(unittest.TestCase):
